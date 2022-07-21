@@ -12,7 +12,7 @@
                     <a class="nav-link text-white" href="#">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About Us</a>
+                    <a class="nav-link text-white" href="/about">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Our Team</a>
@@ -21,7 +21,7 @@
                     <a class="nav-link text-white" href="#">Articles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact Us</a>
+                    <a class="nav-link text-white" href="/contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="/jobfair">JOB FAIR !</a>

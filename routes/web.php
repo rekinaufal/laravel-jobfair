@@ -15,6 +15,9 @@ use App\Http\Controllers\User\ProfileController;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\JobfairController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -30,6 +33,8 @@ use App\Http\Controllers\RegisterController;
 Route::get('/',[Controller::class,'index']);
 
 Route::get('/jobfair',[JobfairController::class,'index']);
+Route::get('/about',[AboutController::class,'index']);
+Route::get('/contact',[ContactController::class,'index']);
 // Route::resource('jobfair','App\Http\Controllers\JobfairController');
 Route::get('/register',[RegisterController::class,'index']);
 
