@@ -3,21 +3,21 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12 text-right mb-3">
-            <a href="register.html" class="btn btn-secondary mt-3 mr-3">Register</a>
+            <a href="/register" class="btn btn-secondary mt-3 mr-3" style="background-color: rgb(33, 156, 189);">Register</a>
         </div>
-        {{-- <table align="center" width="20%">
+        <!-- {{-- <table align="center" width="20%">
             <tr>
               <td style="padding-right: 10px">
                 <input type="text" id="Search" class="form-control" onkeyup="myFunction()" placeholder="Please enter a search term.." title="Type in a name">
               </td>
             </tr>
-          </table> --}}
+          </table> --}} -->
           <div class="col-md-10">
             <div class="input-group mb-3">
                 <input type="text" id="Search" onkeyup="myFunction()" class="form-control" placeholder="Search">
-                {{-- <div class="input-group-append">
+                <!-- {{-- <div class="input-group-append">
                     <button class="btn btn-secondary" type="submit">Go</button>
-                </div> --}}
+                </div> --}} -->
             </div>
         </div>
     </div>
