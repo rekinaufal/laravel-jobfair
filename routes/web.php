@@ -12,6 +12,9 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\User\UserController;
 use App\Http\Controllers\User\ProfileController;
 
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\JobfairController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,7 +26,10 @@ use App\Http\Controllers\User\ProfileController;
 |
 */
 
-Route::view('/','welcome');
+Route::get('/',[Controller::class,'index']);
+
+Route::get('/jobfair',[JobfairController::class,'index']);
+// Route::resource('jobfair','App\Http\Controllers\JobfairController');
 
 
 Route::group(['namespace' => 'Admin','middleware' => 'auth','prefix' => 'admin'],function(){
