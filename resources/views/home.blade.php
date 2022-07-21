@@ -135,7 +135,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <div class="card-header bg-danger pl-2">
+                    <div class="card-header bg-info pl-2">
                         <b class="text-white">Company Description</b>
                     </div>
                     <div class="card-body p-2 over" style="height: 220px;overflow-x: hidden;overflow-y: scroll;">
